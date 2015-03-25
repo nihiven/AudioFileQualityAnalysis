@@ -1,0 +1,6 @@
+@echo off
+cls
+echo Compile...
+gmcs -r:NAudio.dll main.cs
+echo Run...
+run main.exe
